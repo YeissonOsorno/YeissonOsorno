@@ -1,16 +1,26 @@
-### Hi there 👋
+```python
+class SoftwareDeveloper:
 
-<!--
-**YeissonOsorno/YeissonOsorno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def __init__(self):
+        self.username = 'YeissonOsorno'
+        self.name = 'Yeisson Osorno'
+        self.web = '[https://yeisson-osorno.js.org](https://yeisson-osorno.js.org)'
+        self.twitter = '@Yei0_0'
+        self.code = {
+            'frontend': ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Materialize'],
+            'backend': ['Python', 'Node JS', 'C#', 'Django'],
+            'database': ['PostgreSQL', 'SQL Server', 'Mongo DB'],
+            'devops': ['Docker'],
+            'tools': ['GIT', 'GitHub', 'Pandas', 'Jupyter notebook']
+            '
+        }
+        self.architecture = ['MVC']
 
-Here are some ideas to get you started:
+    def __str__(self):
+        return self.name
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+if __name__ == '__main__':
+    me = SoftwareDeveloper()
+
+```
